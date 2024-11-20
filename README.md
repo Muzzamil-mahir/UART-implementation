@@ -13,4 +13,14 @@ This cpp code simulates **UART (Universal Asynchronous Receiver-Transmitter)** c
    cd uart-simulation
 
 ###Sample Output
+  ```bash
+   Transmitting byte #1 (data: 65)
+   TX Bit: 0
+   TX Bit: 1
+   TX Bit: 0
+   ...
+   Received data: 65 (0b01000001)
+   Reception took 0.0012 seconds.
+   
+   Parity error detected!
 
